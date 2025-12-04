@@ -1,0 +1,13 @@
+{
+  "example_faucet": {
+    "url": "https://example.com/claim",
+    "wallet_address_field": "#wallet-input",
+    "connect_wallet_button": null,
+    "checkbox": "#agree-checkbox",
+    "submit_button": "#submit-btn",
+    "close_ad_button": ".ad-close",
+    "error_message_html": ".error-text",
+    "success_message_html": ".success-text",
+    "wallet_indexes": [0, 3]
+  }
+}

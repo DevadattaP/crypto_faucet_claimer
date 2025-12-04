@@ -1,0 +1,15 @@
+# Environment & runtime
+.env
+last_access.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Selenium webdriver downloads
+webdriver/
+
+# Others
+.vscode/
+.idea/
