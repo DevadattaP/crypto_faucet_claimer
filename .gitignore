@@ -13,3 +13,6 @@ webdriver/
 # Others
 .vscode/
 .idea/
+
+# driver executables
+*.exe

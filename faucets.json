@@ -1,13 +1,111 @@
 {
-  "example_faucet": {
-    "url": "https://example.com/claim",
-    "wallet_address_field": "#wallet-input",
-    "connect_wallet_button": null,
-    "checkbox": "#agree-checkbox",
-    "submit_button": "#submit-btn",
-    "close_ad_button": ".ad-close",
-    "error_message_html": ".error-text",
-    "success_message_html": ".success-text",
-    "wallet_indexes": [0, 3]
-  }
+    "ghostchain_eth_sepolia": {
+        "url": "https://ghostchain.io/faucet/ethereum-sepolia/",
+        "close_ad_button": "#snp-pop-1109-overlay",
+        "wallet_address_field": "input[name='field15[]']",
+        "checkbox": "input[name='field35[]'][type='checkbox']",
+        "submit_button": "button.submit-button",
+        "success_message_html": "i.final-success-check",
+        "error_message_html": "span.has-error",
+        "wallet_indexes": null
+    },
+    "ethereumsepoliafaucet_com": {
+        "url": "https://www.ethereumsepoliafaucet.com/",
+        "close_ad_button": "button.swal2-close",
+        "connect_wallet_button": "#btnConnectWallet",
+        "wallet_address_field": null,
+        "checkbox": null,
+        "submit_button": "#btnClaimETH",
+        "success_message_html": "h2.swal2-title",
+        "error_message_html": "h2.swal2-title",
+        "wallet_indexes": null
+    },
+    "google_cloud_pyusd_sepolia": {
+        "url": "https://cloud.google.com/application/web3/faucet/ethereum/sepolia/pyusd",
+        "close_ad_button": null,
+        "wallet_address_field": "#mat-input-0",
+        "connect_wallet_button": null,
+        "checkbox": null,
+        "submit_button": "button.drip-form-primary-button",
+        "success_message_html": "div.drip-status-card-banner-body",
+        "error_message_html": "div.xap-callout-content",
+        "wallet_indexes": null
+    },
+    "gcloud_eth_sepolia": {
+        "url": "https://cloud.google.com/application/web3/faucet/ethereum/sepolia",
+        "close_ad_button": null,
+        "wallet_address_field": "#mat-input-0",
+        "connect_wallet_button": null,
+        "checkbox": null,
+        "submit_button": "button.drip-form-primary-button",
+        "success_message_html": "div.drip-status-card-banner-body",
+        "error_message_html": "div.xap-callout-content",
+        "wallet_indexes": null
+    },
+    "gcloud_eth_hoodi": {
+        "url": "https://cloud.google.com/application/web3/faucet/ethereum/hoodi",
+        "close_ad_button": null,
+        "wallet_address_field": "#mat-input-0",
+        "connect_wallet_button": null,
+        "checkbox": null,
+        "submit_button": "button.drip-form-primary-button",
+        "success_message_html": "div.drip-status-card-banner-body",
+        "error_message_html": "div.xap-callout-content",
+        "wallet_indexes": null
+    },
+    "gcloud_eth_hoodi_eigen": {
+        "url": "https://cloud.google.com/application/web3/faucet/ethereum/hoodi/eigen",
+        "close_ad_button": null,
+        "wallet_address_field": "#mat-input-0",
+        "connect_wallet_button": null,
+        "checkbox": null,
+        "submit_button": "button.drip-form-primary-button",
+        "success_message_html": "div.drip-status-card-banner-body",
+        "error_message_html": "div.xap-callout-content",
+        "wallet_indexes": null
+    },
+    "gcloud_story_aeneid": {
+        "url": "https://cloud.google.com/application/web3/faucet/story/aeneid",
+        "close_ad_button": null,
+        "wallet_address_field": "#mat-input-0",
+        "connect_wallet_button": null,
+        "checkbox": null,
+        "submit_button": "button.drip-form-primary-button",
+        "success_message_html": "div.drip-status-card-banner-body",
+        "error_message_html": "div.xap-callout-content",
+        "wallet_indexes": null
+    },
+    "gcloud_celo_sepolia": {
+        "url": "https://cloud.google.com/application/web3/faucet/celo/sepolia",
+        "close_ad_button": null,
+        "wallet_address_field": "#mat-input-0",
+        "connect_wallet_button": null,
+        "checkbox": null,
+        "submit_button": "button.drip-form-primary-button",
+        "success_message_html": "div.drip-status-card-banner-body",
+        "error_message_html": "div.xap-callout-content",
+        "wallet_indexes": null
+    },
+    "gcloud_0g_galileo": {
+        "url": "https://cloud.google.com/application/web3/faucet/0g/galileo",
+        "close_ad_button": null,
+        "wallet_address_field": "#mat-input-0",
+        "connect_wallet_button": null,
+        "checkbox": null,
+        "submit_button": "button.drip-form-primary-button",
+        "success_message_html": "div.drip-status-card-banner-body",
+        "error_message_html": "div.xap-callout-content",
+        "wallet_indexes": null
+    },
+    "gcloud_somnia_shannon": {
+        "url": "https://cloud.google.com/application/web3/faucet/somnia/shannon",
+        "close_ad_button": null,
+        "wallet_address_field": "#mat-input-0",
+        "connect_wallet_button": null,
+        "checkbox": null,
+        "submit_button": "button.drip-form-primary-button",
+        "success_message_html": "div.drip-status-card-banner-body",
+        "error_message_html": "div.xap-callout-content",
+        "wallet_indexes": null
+    }
 }
